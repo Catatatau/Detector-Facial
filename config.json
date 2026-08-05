@@ -1,0 +1,22 @@
+{
+    "camera": {
+        "index": 0,
+        "resolution": [
+            1280,
+            720
+        ],
+        "frame_rate": 30
+    },
+    "models": {
+        "detection_backend": "yunet",
+        "recognition_backend": "insightface",
+        "recognition_threshold": 0.5
+    },
+    "database": {
+        "location": "sqlite:///face_platform.db"
+    },
+    "system": {
+        "logging_level": "INFO",
+        "thread_count": 4
+    }
+}
